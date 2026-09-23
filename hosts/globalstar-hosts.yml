@@ -1,0 +1,154 @@
+generated: '2026-09-23'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 12
+  own: 11
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - marketing
+  - other
+  - partner
+  - source
+  - status
+  - support
+  - website
+hosts:
+- host: api.globalstar.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: globalstar.com
+  role: api
+  relation: own
+- host: blog.globalstar.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Blog
+  serves: []
+  registrable_domain: globalstar.com
+  role: marketing
+  relation: own
+- host: content.globalstar.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: globalstar.com
+  role: other
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: globalstar.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: globalstar.com
+  role: website
+  relation: own
+- host: go.globalstar.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: globalstar.com
+  role: other
+  relation: own
+- host: investors.globalstar.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: globalstar.com
+  role: other
+  relation: own
+- host: myaccount.globalstar.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: globalstar.com
+  role: other
+  relation: own
+- host: partner.globalstar.com
+  found_by:
+  - probed
+  - site-links
+  - namespace-probe
+  types: []
+  serves: []
+  title: Login | Globalstar Partner Support | US
+  status: 200
+  registrable_domain: globalstar.com
+  role: partner
+  relation: own
+- host: status.globalstar.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  types:
+  - StatusPage
+  serves: []
+  registrable_domain: globalstar.com
+  role: status
+  relation: own
+- host: trust.globalstar.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  types:
+  - TrustCenter
+  serves: []
+  registrable_domain: globalstar.com
+  role: other
+  relation: own
+- host: www.globalstar.com
+  found_by:
+  - pointer
+  types:
+  - Support
+  - Security
+  - PrivacyPolicy
+  - Newsroom
+  serves: []
+  registrable_domain: globalstar.com
+  role: support
+  relation: own

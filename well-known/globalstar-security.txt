@@ -1,0 +1,5 @@
+Canonical: https://globalstar.com/.well-known/security.txt
+Contact: mailto:VulnerabilityReport@globalstar.com
+Contact: https://www.hackerone.com
+Expires: 2029-03-06T05:59:00Z
+Preferred-Languages: en
