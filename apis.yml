@@ -19,7 +19,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-23'
 
-modified: '2026-09-23'
+modified: '2026-10-06'
 
 tags:
 - Company
@@ -35,6 +35,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://blog.globalstar.com/globalstar-blog/rss.xml
+  type: BlogRSS
 - type: SecurityTxt
   url: well-known/globalstar-globalstar-security.txt
 - type: SecurityTxt
