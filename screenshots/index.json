@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "globalstar",
+    "captured_at": "2026-10-11T185949",
+    "source_url": "https://globalstar.com/",
+    "source_type": "Website",
+    "file": "globalstar-2026-10-11T185949.png",
+    "bytes": 279071,
+    "capture": "playwright-local"
+  }
+]
